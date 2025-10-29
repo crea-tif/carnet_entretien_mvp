@@ -1,0 +1,36 @@
+name: carnet_entretien
+description: MVP - Carnet d’entretien automobile (Flutter + Firebase)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # Firebase core + services
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.2.0
+  firebase_messaging: ^15.0.4
+  # State & utils
+  flutter_riverpod: ^2.5.1
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  image_picker: ^1.1.2
+  # Optional MVP local PDF export (v1 simple)
+  pdf: ^3.11.0
+  printing: ^5.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
